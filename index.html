@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botão que muda a cor do texto</title>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.1.0/build/pure-min.css" integrity="sha384-yHIFVG6ClnONEA5yB5DJXfW2/KC173DIQrYoZMEtBvGzmf0PKiGyNEqe9N6BNDBH" crossorigin="anonymous">
+</head>
+<body id="body">
+    <div class="button">
+        <style scoped="">
+            body{
+                text-align: center;
+            }
+            .button-azul {
+                background: blue;
+            }
+            .button-cinza {
+                background: gray;
+            }
+            .button-verde {
+                background: green;
+            }
+            .button-vermelho {
+                background: red;
+            }
+        </style>
+
+        <h1>Botões que mudam a cor do texto</h1>
+        <button class="button-azul pure-button" id="azul" >Azul</button>
+        <button class="button-cinza pure-button" id="cinza">Cinza</button>
+        <button class="button-verde pure-button" id="verde">Verde</button>
+        <button class="button-vermelho pure-button" id="vermelho">Vermelho</button>
+
+        <p id="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim incidunt sunt, deserunt autem vero laborum corporis quia dignissimos nobis, a eius rem. Quae nam sequi est dolor doloribus assumenda repellat.</p>
+
+    </div>
+
+    <script src="funcoes.js"></script>
+</html>
